@@ -1,0 +1,16 @@
+{
+  "model_name": "Random Forest Clinical-only",
+  "target": "ANY_NEW_CHRONIC_RISK",
+  "n_subjects": 698,
+  "n_events": 93,
+  "n_non_events": 605,
+  "n_features": 13,
+  "validation": {
+    "method": "Repeated Stratified 5-Fold CV (5 repeats)",
+    "roc_auc_mean": 0.716043,
+    "roc_auc_std": 0.057835,
+    "pr_auc_mean": 0.303388,
+    "pr_auc_std": 0.059567
+  },
+  "note": "Education/synthetic-data based research proof-of-concept model. Not clinically validated."
+}

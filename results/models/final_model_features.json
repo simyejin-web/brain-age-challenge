@@ -1,0 +1,15 @@
+[
+  "T01_AGE",
+  "T00_SEX",
+  "T01_SBP",
+  "T01_DBP",
+  "T01_BMI",
+  "T01_WAIST",
+  "T01_GLU0",
+  "T01_HBA1C",
+  "T01_TCHL",
+  "T01_HDL",
+  "T01_TG",
+  "T01_CREATININE",
+  "T01_EGFR"
+]

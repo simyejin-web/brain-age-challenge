@@ -1,0 +1,46 @@
+{
+  "hypertension": {
+    "display_name": "고혈압",
+    "outcome": "NEW_HTN",
+    "model_type": "logistic",
+    "n": 571,
+    "event_n": 25,
+    "event_rate": 0.043782837127845885,
+    "cv_roc_auc": 0.602587,
+    "cv_pr_auc": 0.097725,
+    "model_file": "disease_hypertension_model.joblib"
+  },
+  "diabetes": {
+    "display_name": "당뇨",
+    "outcome": "NEW_DM",
+    "model_type": "logistic",
+    "n": 659,
+    "event_n": 12,
+    "event_rate": 0.018209408194233688,
+    "cv_roc_auc": 0.704338,
+    "cv_pr_auc": 0.08835,
+    "model_file": "disease_diabetes_model.joblib"
+  },
+  "dyslipidemia": {
+    "display_name": "이상지질혈증",
+    "outcome": "NEW_LIP",
+    "model_type": "logistic",
+    "n": 676,
+    "event_n": 25,
+    "event_rate": 0.03698224852071006,
+    "cv_roc_auc": 0.708272,
+    "cv_pr_auc": 0.108431,
+    "model_file": "disease_dyslipidemia_model.joblib"
+  },
+  "kidney": {
+    "display_name": "신장기능 저하",
+    "outcome": "NEW_EGFR_LT60",
+    "model_type": "random_forest",
+    "n": 697,
+    "event_n": 37,
+    "event_rate": 0.05308464849354376,
+    "cv_roc_auc": 0.874525,
+    "cv_pr_auc": 0.302174,
+    "model_file": "disease_kidney_model.joblib"
+  }
+}
